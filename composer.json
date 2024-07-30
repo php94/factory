@@ -1,0 +1,16 @@
+{
+    "name": "php94/factory",
+    "description": "http factory",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "psr/http-message": "^2.0",
+        "psr/http-factory": "^1.1",
+        "guzzlehttp/psr7": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHP94\\Factory\\": "src/"
+        }
+    }
+}
